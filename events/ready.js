@@ -26,7 +26,7 @@ module.exports = class {
 				// here all events that relate with player connection
 				const banData = await client.getPlayerBan(playerData?.player?.steamID),
 					owner = await client.findUserByID(client.config.owner.id);
-				if (!owner.apiToken) return;
+				if (!owner?.apiToken) return;
 				if (banData.length > 0) {
 					// check every ban the player has
 					for (let i = 0; i < banData.length; i++) {
