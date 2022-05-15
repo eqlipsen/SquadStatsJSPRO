@@ -14,9 +14,9 @@
 				<div class="card bg-secondary shadow border-0">
 				  <div class="card-header bg-transparent pb-5">
 					<% if(!userSteam && !userDiscord) { %>
-						<div class="text-muted text-center mt-2 mb-3"><small>Are you an admin or here to link your account ?</small></div>
+						<div class="text-muted text-center mt-2 mb-3"><small>Войди с помощью Discord</small></div>
 					<% } else { %>
-						<div class="text-muted text-center mt-2 mb-3"><small>You are good to go!</small></div>
+						<div class="text-muted text-center mt-2 mb-3"><small>Все готово</small></div>
 					<% } %>
 					<div class="btn-wrapper text-center">
 						<% if(userSteam && userDiscord) { %>
@@ -27,50 +27,11 @@
 						<% } else { %>
 							<a href="/login" class="btn btn-neutral btn-icon">
 							<span class="btn-inner--icon"><i class="ni ni-circle-08"></i></span>
-							<span class="btn-inner--text">Login</span>
+							<span class="btn-inner--text">Войти</span>
 							</a>
 						<% } %>
 					  
 					</div>
-				  </div>
-				  <div class="card-body px-lg-5 py-lg-5">
-					<!-- Center a loading emoji and 5 rows below add "We are building amazing content for you! Be patient!"-->
-					<div class="text-center text-muted mb-4">
-					  	<span class="h1">
-							
-						</span>
-					
-						<h3 class="heading text-center">
-							<span>We are building amazing content for you! <br>Be patient!</span>
-						</h3>
-
-						<p class="description text-center">
-							<span>We are building a new website for you. <br>We are working hard to make it awesome!</span>
-						</p>
-
-						<div class="row text-center">
-							<div class="col-4">
-								<span class="display-3 text-primary">1%</span>
-								<span class="text-muted">Player Leaderboard</span>
-							</div>
-							<div class="col-4">
-								<span class="display-3 text-primary">10%</span>
-								<span class="text-muted">Profile Pages</span>
-							</div>
-							<div class="col-4">
-								<span class="display-3 text-primary">80%</span>
-								<span class="text-muted">Administration Panel</span>
-							</div>
-						</div>
-					</div>
-				  </div>
-				</div>
-				<div class="row mt-3">
-				  <div class="col-6">
-					<a href="https://github.com/11TStudio/SquadStatsJSPRO" class="text-light" target="_blanc"><small>Want to contribute?</small></a>
-				  </div>
-				  <div class="col-6 text-right">
-					<a href="https://discord.com/invite/9F2Ng5C" class="text-light" target="_blanc"><small>Talk to the DEVs</small></a>
 				  </div>
 				</div>
 			  </div>
