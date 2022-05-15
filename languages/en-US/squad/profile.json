@@ -1,6 +1,6 @@
 {
     "DESCRIPTION": "Показывает профиль упомянутого пользователя",
-    "USAGE": "Отслеживайте учетную запись отряда.\n Отключите учетную запись отряда. \и Проверить учетную запись чужого.",
+    "USAGE": "Отслеживайте учетную запись отряда.\n Отключите учетную запись отряда. \n Проверить учетную запись чужого.",
     "EXAMPLES": "**Отслеживайте свою учетную запись в первый раз;**```{{prefix}}profile Steam64ID```\n**Смотрите свою статистику;**```{{prefix}}profile```\n**Повторно привяжите свой Steam64ID;**```{{prefix}}profile re-link```\n**Ищите статистику других игроков;**```{{prefix}}profile @Username#0001```\n**(ADMIN ONLY) Перепривязка через Discord;**```{{prefix}}profile re-link @Username#0001```\n**(ADMIN ONLY) Re-link by Steam64ID (for dead Discord Accounts);**```{{prefix}}profile re-steam <STEAM64ID_HERE>```",
     "TITLE": "Профиль {{username}}",
     "NO_BIO": "Нет описания || Чтобы установить : `{{prefix}}setbio <ваше описание>`||",
